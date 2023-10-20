@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFE6B3;
+    margin: 0;
+    padding: 0;
+    max-height: 115vh;
+}
+
+img {
+    height: 135vh;
+    width: 100%;
+    z-index: -1;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    bottom: 62rem;
+}
+
+h1 {
+    color: #FFA500;
+    /* Amarillo anaranjado */
+    text-align: center;
+    /* Centrar el texto */
+    text-transform: uppercase;
+    /* Convertir el texto a mayúsculas */
+    letter-spacing: 2px;
+    /* Espaciado entre letras */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    /* Sombra de texto */
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.h2__1 {
+    color: #FF0000;
+    text-align: center;
+    /* Centrar el texto */
+    text-transform: uppercase;
+    /* Convertir el texto a mayúsculas */
+    letter-spacing: 2px;
+    /* Espaciado entre letras */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    /* Sombra de texto */
+    font-weight: 3000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color: #00796B;
+    font-weight: bold;
+}
+
+.cocktail {
+    border: 1px solid #00796B;
+    background-color: #FFE6B3;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #888888;
+    font-family: 'Arial', sans-serif; /* Fuente de respaldo */
+    font-size: 18px; /* Tamaño de fuente */
+    color: #000; /* Color del texto */
+    text-transform: uppercase; /* Convertir el texto a mayúsculas */
+    padding: 10px; /* Espaciado interior */
+    transition: color 0.2s; /* Transición de color al pasar el ratón */
+    font-weight: bold;
+}
+
+.cocktail h2 {
+    margin: 0;
+}
+
+.cocktail p {
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .cocktail {
+        padding: 5px;
+    }
+}
