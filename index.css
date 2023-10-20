@@ -21,22 +21,29 @@ h1 {
     color: #feef1f; /* Texto blanco para contrastar con el fondo */
     text-align: center;
     font-family: fantasy;
+    filter: brightness(1.5)
 }
 
 p {
     font-family: fantasy;
-    color: #ffff;
+    color: #000;
+    filter: brightness(1.5)
+    filter: saturate(2);
 }
 
 .h2__1 {
     text-align: center;
     font-family: fantasy;
     color: #FF6600;
+    filter: brightness(1.5)
+    filter: saturate(2);
 }
 
 h2 {
-    color: #00FF00;
-    font-weight: bold;
+    color: #00ff00;
+    font-weight: bolder;
+    filter: brightness(20)
+    filter: saturate(10);
 }
 
 .cocktail {
