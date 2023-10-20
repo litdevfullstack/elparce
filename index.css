@@ -14,6 +14,7 @@ body {
     padding: 20px;
     background-color: none;
     border-radius: 10px;
+    font-size: larger;
 }
 
 h1 {
@@ -28,7 +29,6 @@ p {
     font-family: fantasy;
     color: #000;
     filter: brightness(1.5)
-    filter: saturate(2);
 }
 
 .h2__1 {
@@ -40,10 +40,13 @@ p {
 }
 
 h2 {
-    color: #00ff00;
-    font-weight: bolder;
+    color: #00ff00d5;
+    font-weight: 2000;
     filter: brightness(20)
     filter: saturate(10);
+    font-size: larger;
+    font-family: fantasy;
+    
 }
 
 .cocktail {
